@@ -1,0 +1,22 @@
+.button{
+    font: inherit;
+    border: 1px solid blueviolet;
+    background:blueviolet;
+    color: white;
+    padding:  0.25rem;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+.button:hover, 
+.button:active{
+    background: rgb(104, 42, 162);
+    border-color: rgb(101, 42, 157);
+}
+
+.button.focus {
+    outline:none;
+}
